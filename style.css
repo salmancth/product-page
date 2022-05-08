@@ -1,0 +1,101 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+
+header {
+    background-color:hsl(32, 52%, 65%);
+    border-bottom: 2px solid hsl(33, 42%, 52%);
+}
+
+header > ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+header > ul > li {
+    font-style: normal;
+    color: #333;
+    padding: 12px 20px;
+    font-size: 22px;
+}
+
+header > ul > li:hover {
+    color: red;
+
+}
+
+main {
+    padding-top: 100px;
+    margin: auto;
+    background-color: bisque;
+}
+
+main > #Products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 22px;
+    margin: 16px;
+} 
+
+main > #Products > article {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    position: relative;
+
+}
+
+
+main > div > article > h3 {
+    font-size: 20px;
+    padding: 0 8px;   
+    
+}
+
+
+main > div > article > p {
+    padding: 8px;
+}
+
+main > #Products > article img {
+    order: -1;
+}
+
+main > #Products > article a {
+    background-color: rgb(255, 0, 0, 0.8);
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 16px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%, -50%);
+    opacity: 0;
+}
+
+main > #Products > article:hover a {
+    opacity: 1;
+}
+
+main > #Products > article:hover img {
+    opacity: 0.7;
+}
+
+footer {
+
+}
+
