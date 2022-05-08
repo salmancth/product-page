@@ -38,22 +38,15 @@ header > ul > li:hover {
 }
 
 
-.container-logo {
-    size: 200px;
-    
-}
 
 
-header > ul logo{
-    size: 200px;
-    : center;
-}
 
 main {
     padding-top: 100px;
     margin: auto;
     background-color: bisque;
 }
+
 
 main > #Products {
     display: grid;
@@ -108,6 +101,27 @@ main > #Products > article:hover img {
 }
 
 footer {
-
+    background-color:hsl(32, 52%, 65%);
+    border-bottom: 2px solid hsl(33, 42%, 52%);
 }
 
+footer > ul {
+    list-style: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+footer > ul > li {
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    padding: 12px 20px;
+    font-size: 22px;
+}
+
+footer > ul > li:hover {
+    color: rgb(36, 121, 92);
+
+}
