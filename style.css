@@ -37,6 +37,18 @@ header > ul > li:hover {
 
 }
 
+
+.container-logo {
+    size: 200px;
+    
+}
+
+
+header > ul logo{
+    size: 200px;
+    : center;
+}
+
 main {
     padding-top: 100px;
     margin: auto;
